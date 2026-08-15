@@ -12,7 +12,7 @@
   <style>
     body { 
       font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
-      word-break: keep-all; /* 단어 중간 쪼개짐 방지 */
+      word-break: keep-all; /* 단어 끊김 방지 */
     }
   </style>
 </head>
@@ -23,7 +23,7 @@
     <div class="max-w-3xl mx-auto px-4 py-3 flex justify-between items-center">
       <div class="font-black text-lg sm:text-xl text-blue-900 tracking-tight">시카고부동산</div>
       <a href="tel:010-5024-8456" class="bg-blue-600 hover:bg-blue-700 active:scale-98 text-white text-xs sm:text-sm font-bold px-3.5 py-2 rounded-xl shadow-sm transition flex items-center gap-1">
-        <span>📞</span> 빠른 전화 상담
+        <span>📞</span> 전화 상담
       </a>
     </div>
   </header>
@@ -45,7 +45,7 @@
     </section>
 
     <!-- 4개 공간 카드 그리드 -->
-    <section class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 mb-8">
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 mb-6">
       
       <!-- 1. 일반 사무실 -->
       <a href="/office-standard.html" class="block bg-white p-5 rounded-2xl shadow-sm border border-slate-200/80 hover:border-blue-500 hover:shadow-md transition active:scale-[0.99]">
@@ -108,9 +108,14 @@
       </a>
     </section>
 
-    <!-- 하단 통화 배너 -->
-    <a href="tel:010-5024-8456" class="block w-full text-center bg-blue-600 hover:bg-blue-700 active:scale-98 text-white font-bold py-3.5 rounded-2xl shadow-md text-sm sm:text-base transition mb-4">
-      📞 실시간 공실 현황 및 임대료 즉시 문의 (010-5024-8456)
+    <!-- 하단 개선된 2단 통화 배너 (글씨 밀림 완전 해결) -->
+    <a href="tel:010-5024-8456" class="flex flex-col items-center justify-center gap-1 w-full text-center bg-blue-600 hover:bg-blue-700 active:scale-98 text-white py-4 px-4 rounded-2xl shadow-md transition mb-6">
+      <span class="text-xs sm:text-sm font-medium text-blue-100 flex items-center gap-1">
+        <span>📞</span> 실시간 공실 현황 및 임대료 즉시 문의
+      </span>
+      <span class="text-lg sm:text-xl font-black tracking-wide text-amber-300">
+        010-5024-8456
+      </span>
     </a>
   </main>
 
