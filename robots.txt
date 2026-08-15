@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://gardenfive-office.gdthedh.workers.dev/sitemap.xml
